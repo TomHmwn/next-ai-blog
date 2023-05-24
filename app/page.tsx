@@ -3,6 +3,8 @@ import Tech from "app/(home)/Tech";
 import Travel from "app/(home)/Travel";
 import Other from "app/(shared)/Other";
 import Subscribe from "app/(shared)/Subscribe"
+import Sidebar from "app/(shared)/Sidebar"
+
 export default function Home() {
   return (
     <main className="px-10 leading-7">
@@ -17,7 +19,7 @@ export default function Home() {
           </div>
         </div>
         <div className="basis-1/4">
-          {/* <Sidebar /> */}
+          <Sidebar />
         </div>
       </div>
     </main>
