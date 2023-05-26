@@ -14,6 +14,7 @@ type Props = {
 const Card = ({ className, imageHeight, post, isSmallCard = false, isLongForm = false }: Props) => {
 
   const { id, title, author, createdAt, image, snippet } = post || {}
+
   const date = new Date(createdAt);
   const options = { year: "numeric", month: "long", day: "numeric" } as any;
   const formattedDate = date.toLocaleDateString("en-US", options);

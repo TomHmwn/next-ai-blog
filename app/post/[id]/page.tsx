@@ -35,7 +35,7 @@ const Post = async ({ params }: Props) => {
   const post: FormattedPost | null = await getPost(id);
 
   if (!post) {
-    return <div>Post Not Foun</div>
+    return <div>Post Not Found</div>
   }
   return (
     <main className="px-10 leading-7">
