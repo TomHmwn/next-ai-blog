@@ -1,7 +1,7 @@
 export type FormattedPost = {
   id: string;
-  createdAt: String;
-  updatedAt: String;
+  createdAt: string;
+  updatedAt: string;
   title: string;
   category: string;
   content: string;
